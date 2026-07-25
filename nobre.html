@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Nobre Móveis | Marcenaria</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="nobre.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-bar">
+            <div class="logo"> <img src="./logo.jpeg" alt="logo"></span></div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1 class="hero-title">NOBRE MÓVEIS <br> MARÍLIA</h1>
+                <p class="hero-desc">Marcenaria e Móveis Planejados com qualidade e sofisticação <br> Ideias vindo de
+                    você! <br> Pai e filho atuando na área há mais de 10 anos</p>
+                <div>
+                    <a href="#portfolio" class="btn">Ver portfólio</a>
+                    <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img id="heroFoto" src="Fotos/home.jpeg" alt="Nobre Móveis">
+                <div class="hero-dots" id="heroDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Nosso Portfólio</h2>
+            <p class="section-sub">Peças exclusivas que unem beleza, função e alma artesanal</p>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="cozinha">Cozinhas</button>
+                <button class="filter-btn" data-filter="banheiro">Banheiros</button>
+                <button class="filter-btn" data-filter="area">Área de Lazer</button>
+                <button class="filter-btn" data-filter="sala">Salas</button>
+                <button class="filter-btn" data-filter="escritorio">Escritórios</button>
+                <button class="filter-btn" data-filter="ferro">Ferro & Led</button>
+            </div>
+
+            <div class="gallery" id="gallery-container">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h3>Madeira que conta histórias</h3>
+                <p>Há mais de 10 anos, a Marcenaria Nobre Móveis transforma madeiras nobres em móveis que atravessam
+                    gerações. Cada peça é pensada nos mínimos detalhes, respeitando a essência do material e as
+                    necessidades de quem vai viver com ela.</p>
+                <p>Trabalhamos sob medida para residências, escritórios e espaços comerciais. Do esboço ao acabamento
+                    final, nosso processo é 100% artesanal, com técnicas tradicionais e toque contemporâneo.</p>
+                <a href="#contato" class="btn" style="background:#ffffff;">Converse com a gente</a>
+            </div>
+            <div class="about-img"></div>
+        </div>
+    </section>
+
+    <footer id="contato" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Vamos criar algo especial?</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Rua Paulo Ravanelli, 119 - Marília, SP</p>
+                <p><i class="fas fa-phone-alt"></i> (14) 99819-4380</p>
+                <p><i class="fas fa-envelope"></i> rafael.lefosse14@hotmail.com</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/nobremoveismarilia/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/5514998194380"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p style="font-size: 0.95rem; line-height: 1.5;">Atendemos Marília e região com projetos e entregas
+                    seguras. Entre em contato para uma conversa inicial sem compromisso.</p>
+                <p style="margin-top: 20px;"><i class="fas fa-truck"></i> Entregamos para Marília e região</p>
+                <p><i class="fas fa-leaf"></i> Madeira nobre e certificada</p>
+            </div>
+        </div>
+        <div class="copyright container">
+            <p>&copy; 2026 Nobre Móveis - Móveis que eternizam memórias. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="nobre.js"></script>
+</body>
+
+</html>
